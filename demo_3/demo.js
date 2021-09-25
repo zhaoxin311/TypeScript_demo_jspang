@@ -58,6 +58,9 @@ function search3() {
     yy = '找到';
     for (var i = 0; i < xuqiu.length; i++) {
         yy = yy + xuqiu[i];
+        if (i < xuqiu.length - 1) {
+            yy = yy + '、';
+        }
     }
     return yy + '小朋友';
 }

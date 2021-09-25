@@ -63,6 +63,9 @@ function search3(...xuqiu:string[]):string {
   for(let i=0;i<xuqiu.length;i++){
     yy=yy+xuqiu[i]
 
+    if(i<xuqiu.length-1){
+      yy=yy+'、'
+    }
   }
   return yy+'小朋友'
 }
