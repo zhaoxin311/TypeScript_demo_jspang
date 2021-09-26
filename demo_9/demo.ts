@@ -30,5 +30,5 @@ let result1:boolean = reg5.test(website)
 console.log(result1)    //true
 console.log('-----------------我是分割线-----------------');
 console.log(reg5.exec(website)) ////[ 'jspang', index: 0, input: 'jspang.com' ]
-
+// exec查找不到时 会返回null
 console.log('-----------------结束-----------------');
